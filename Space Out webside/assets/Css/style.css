@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+    border: 3px solid white;
+}
+.main  {
+    background-image: url(../images/Logo\ icon.png);
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.slogan h1{
+    color: rgb(255, 255, 255);
+    font-size:100px ;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.header-menu{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background: rgb(128, 217, 240);
+    padding: 20px opx;
+}
+.header-menu ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.header-menu ul li{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 0%;
+    cursor: pointer;
+}
+.header-menu ul li a{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.content {
+    width: 400px;
+    margin: 0 auto;
+}
+.content p {
+    color: teal;
+    margin: 40px 0;
+}
+#we{
+    color: rgb(0, 0, 0);
+    font-size:40px ;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+.footer{
+   width: 100%;
+   height: auto;
+   margin: auto;
+   background: rgb(255, 255, 255);
+   padding: 20px opx;
+}
+.footer ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer ul li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0px 10px;
+    border-radius: 100%;
+    background: rgb(128, 198, 245);
+    cursor: pointer;
+}
+.footer ul li a{
+    font-size: 30px;
+    display: block;
+}
+.footer ul li a i{
+    line-height: 50px;
+}
+#info p{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+    font-size:20px ;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#copy{
+    font-size:15px ;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: left;
+}
